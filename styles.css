@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+:root {
+    --primary: #6A513B;
+    --secondary: #399339;
+}
+
+body {
+    background-image: url("images/groot.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    font-family: 'Syne Mono', monospace;
+    color: var(--secondary);
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+}
+
+header {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: 40%;
+    align-content: center;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: large;
+    align-content: center;
+}
+
+
+#div-Show {
+    width: 100%;
+    min-height: 10rem;
+    max-height: 10rem;
+    overflow:scroll;
+    border: 1px solid var(--secondary);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+footer p {
+    max-width: 60%;
+    margin: auto;
+    max-height: 80%;
+    align-content: center;
+}
+
+#footer-title{
+    
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#bg {
+    background-image: url("images/groot.PNG");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
